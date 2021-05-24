@@ -14,18 +14,19 @@
 - TwitterやYoutube,Twitchなど様々なプラットフォームから取得したコメントを配信に流すソースを生成するwebアプリケーションを制作
 
 ## 企画の具体的な内容
+３種類のバックエンドで構成するWebアプリケーション
 
-#### node.js兼フロント担当
+### node.js兼フロント担当
 [s19003 上原功也](https://github.com/s19003/Graduation_Task.git)
 #### 環境
 - node.js
 
-#### AWSLambda担当
+### AWSLambda担当
 [n20006 金城岳見](https://github.com/n20006/GraduationTask)  
 - AWSLambda
 - python3
 
-#### Ruby on rails担当
+### Ruby on rails担当
 [n20010 佐谷公紀](https://github.com/n20010/GraduationTask)
 #### 環境
 - Ruby on rails6
