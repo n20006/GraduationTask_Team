@@ -23,7 +23,7 @@
 
 ### バックエンド
 #### 担当
-n20006 金城岳見
+[n20006 金城岳見](https://github.com/n20006/GraduationTask)  
 [n20010 佐谷公紀](https://github.com/n20010/GraduationTask)
 #### 環境
 - AWS講義で使用している教科書と同様のネットワーク・サーバ構成
