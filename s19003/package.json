@@ -1,0 +1,15 @@
+{
+  "name": "s19003",
+  "version": "1.0.0",
+  "description": "nodeを使用したサーバ構築用の練習リポジトリ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.1-security"
+  }
+}
