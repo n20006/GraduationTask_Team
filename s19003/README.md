@@ -1,6 +1,13 @@
-### 卒業研究
+## 卒業研究<br>
 
-環境
+チーム :<br>
+メンバー:<br>
+
+- n20006 金城岳見
+- n20010 佐谷公紀
+
+### 環境
+
 HTML/CSS<br>
 JavaScript(React/Node.js)<br>
 AWS<br>
