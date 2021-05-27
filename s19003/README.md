@@ -1,6 +1,6 @@
 ## 卒業研究<br>
 
-チーム :<br>
+チーム名 : 未定<br>
 メンバー:<br>
 
 - n20006 金城岳見
@@ -8,6 +8,6 @@
 
 ### 環境
 
-HTML/CSS<br>
-JavaScript(React/Node.js)<br>
+HTML/CSS
+JavaScript(Node.js/Express?/React?)<br>
 AWS<br>
