@@ -1,11 +1,9 @@
-// import Twitter from 'twitter-v2'
-import dotenv from 'dotenv'
-import Twitter from 'twitter-v2'
-dotenv.config()
+import env from 'dotenv'
 
-const client = new Twitter({
-  consumer_key: process.env.API_KEY,
-  consumer_secret: process.env.API_SECRET,
-  access_token_key: process.env.ACCESS_TOKEN,
-  access_token_secret: process.env.ACCESS_SECRET
-})
+env.config()
+
+const test = process.env.BEARER_TOKEN
+const test2 = process.env.API_KEY
+
+console.log(test)
+console.log(test2)

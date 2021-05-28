@@ -2,6 +2,9 @@
 // https://developer.twitter.com/en/docs/twitter-api/tweets/search/quick-start/recent-search
 
 import needle from 'needle'
+import env from 'dotenv'
+
+env.config()
 
 // The code below sets the bearer token from your environment variables
 // To set environment variables on macOS or Linux, run the export command below from the terminal:
@@ -15,7 +18,7 @@ async function getRequest () {
   // specify a search query, and any additional fields that are required
   // by default, only the Tweet ID and text fields are returned
   const params = {
-    query: 'from:twitterdev -is:retweet',
+    query: '#底辺youtuber',
     'tweet.fields': 'author_id'
   }
 
