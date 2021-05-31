@@ -1,9 +1,9 @@
 # 企画書
 
 ## メンバー
-- [s19003 上原功也](https://github.com/s19003/Graduation_Task.git)
-- [n20006 金城岳見](https://github.com/n20006/GraduationTask)
-- [n20010 佐谷公紀](https://github.com/n20010/GraduationTask)
+- [s19003 上原功也](https://github.com/s19003/Graduation_Task.git){:target="_blank"}
+- [n20006 金城岳見](https://github.com/n20006/GraduationTask){:target="_blank"}
+- [n20010 佐谷公紀](https://github.com/n20010/GraduationTask){:target="_blank"}
 
 ## 現状分析
 - コロナ情勢化でイベント、個人の配信が増えている
