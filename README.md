@@ -34,7 +34,7 @@
 - 11~12月 最終チェック、プレゼン完成
 
 
-## 企画の具体的な環境
+## 開発環境
 - バックエンドは各メンバーで異なる言語で作成し、完成後にそれぞれの速度を比較する<br>
   (比較用サイト: [GTmetrix](https://gtmetrix.com/))
 - 各バックエンドでコメントを取得、整形後フロントにJsonデータを送る
@@ -44,21 +44,18 @@
 ***
 ### node.js兼フロント担当
 [s19003 上原功也](https://github.com/s19003/Graduation_Task.git)
-#### 環境
 - node.js
 - AWS
 
 ***
 ### AWSLambda担当
 [n20006 金城岳見](https://github.com/n20006/GraduationTask)  
-#### 環境
 - AWSLambda
 - python3
 
 ***
 ### Ruby on rails担当
 [n20010 佐谷公紀](https://github.com/n20010/GraduationTask)
-#### 環境
 - Ruby on rails6
 - AWS
 ***
