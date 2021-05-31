@@ -18,7 +18,7 @@ async function getRequest () {
   // specify a search query, and any additional fields that are required
   // by default, only the Tweet ID and text fields are returned
   const params = {
-    query: '#底辺youtuber',
+    query: '#猫',
     'tweet.fields': 'author_id'
   }
 
