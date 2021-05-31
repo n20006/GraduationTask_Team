@@ -41,24 +41,27 @@
 - フロントはHTML&CSS, Javasript(担当:s19003上原功也)で作成されたものを
   それぞれ各バックエンドに合わせて修正して利用。デザインや機能は統一する。
 
+***
 ### node.js兼フロント担当
 [s19003 上原功也](https://github.com/s19003/Graduation_Task.git)
 #### 環境
 - node.js
 - AWS
 
+***
 ### AWSLambda担当
 [n20006 金城岳見](https://github.com/n20006/GraduationTask)  
 #### 環境
 - AWSLambda
 - python3
 
+***
 ### Ruby on rails担当
 [n20010 佐谷公紀](https://github.com/n20010/GraduationTask)
 #### 環境
 - Ruby on rails6
 - AWS
-
+***
 
 ### 必要機能(関数レベル)
 - select-platform 使うプラットフォームを選ぶ
