@@ -1,0 +1,23 @@
+{
+  "name": "s19003",
+  "version": "1.0.0",
+  "description": "nodeを使用したサーバ構築用の練習リポジトリ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "got": "^9.6.0",
+    "http": "0.0.1-security",
+    "needle": "^2.6.0",
+    "nodemon": "^2.0.7",
+    "oauth-1.0a": "^2.2.6",
+    "twitter-v2": "^1.1.0"
+  },
+  "type": "module"
+}
