@@ -1,3 +1,4 @@
+import datetime
 import os
 import sys
 import time
@@ -5,14 +6,13 @@ import time
 import requests
 
 # YouTube API key
-YT_API_KEY = "xxxxxxxxxxxxxxx"
+YT_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 
 # Get activeLiveChatId youtube url
 def get_chat_id(yt_url):
     try:
         video_id = yt_url.replace("https://www.youtube.com/watch?v=", "")
-        print("video_id : ", video_id)
 
         url = "https://www.googleapis.com/youtube/v3/videos"
         params = {"key": YT_API_KEY, "id": video_id, "part": "liveStreamingDetails"}
@@ -21,6 +21,7 @@ def get_chat_id(yt_url):
         liveStreamingDetails = data["items"][0]["liveStreamingDetails"]
         if "activeLiveChatId" in liveStreamingDetails.keys():
             chat_id = liveStreamingDetails["activeLiveChatId"]
+            print("video_id : ", video_id)
             print("get_chat_id done!")
         else:
             chat_id = None
@@ -58,7 +59,7 @@ def get_chat(chat_id, pageToken, log_file):
             os.makedirs("chat_log", exist_ok=True)
             with open(os.path.join("chat_log", log_file), "a") as f:
                 f.write(log_text)
-            print("{}: {}".format(usr, msg))
+            print("{} : {}".format(usr, msg))
         f.close()
 
     except:
@@ -70,17 +71,18 @@ def get_chat(chat_id, pageToken, log_file):
 # Set get and sleep times
 # Write chat log in channelid.txt
 def main(yt_url):
+    date = datetime.datetime.today()
     slp_time = 10  # sec
     iter_times = 5  # times
     take_time = slp_time / 60 * iter_times
     chat_id = get_chat_id(yt_url)
     print("End in {} min".format(take_time))
-    print("work on {}".format(yt_url))
+    print("Work on {}".format(yt_url))
 
     log_file = yt_url.replace("https://www.youtube.com/watch?v=", "") + ".txt"
     os.makedirs("chat_log", exist_ok=True)
     with open(os.path.join("chat_log", log_file), "a") as f:
-        f.write("Record {}'s log\n".format(yt_url))
+        f.write("{}\nRecord {}'s log\n".format(date, yt_url))
         f.close()
 
     nextPageToken = None
@@ -95,5 +97,8 @@ def main(yt_url):
 
 
 if __name__ == "__main__":
-    yt_url = input("Input YouTube URL > ")
-    main(yt_url)
+    try:
+        yt_url = input("Input YouTube URL > ")
+        main(yt_url)
+    except KeyboardInterrupt:
+        print("\nBye~~")
