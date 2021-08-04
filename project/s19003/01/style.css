@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+}
+
+p {
+  min-height: 72px;
+}
+
+.slider {
+  width: 300px;
+}
