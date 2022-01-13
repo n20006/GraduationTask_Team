@@ -4,9 +4,12 @@ import sys
 import time
 
 import requests
+from dotenv import load_dotenv
+
+load_dotenv('.env')
 
 # YouTube API key
-YT_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+YT_API_KEY = os.environ.get('api_key')
 
 
 # Get activeLiveChatId youtube url
